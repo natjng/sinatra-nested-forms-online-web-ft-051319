@@ -12,6 +12,13 @@ class Ship
         @@all << self
     end
 
+    # def initialize(args)
+    #     @name = args[:name]
+    #     @type = args[:type]
+    #     @booty = args[:booty]
+    #     @@all << self
+    # end    
+
     def self.all
         @@all
     end
